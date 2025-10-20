@@ -307,7 +307,7 @@ export default function LandingPage() {
                 <CardHeader>
                   <CardTitle className="text-2xl text-[#212529]">Básico</CardTitle>
                   <div className="mt-4">
-                    <span className="text-4xl font-bold text-[#212529]">$25</span>
+                    <span className="text-4xl font-bold text-[#212529]">$0</span>
                     <span className="text-[#212529]/70">/mes</span>
                   </div>
                   <CardDescription className="mt-4">Ideal para editoriales pequeñas o independientes.</CardDescription>
@@ -316,19 +316,11 @@ export default function LandingPage() {
                   <ul className="space-y-3">
                     <li className="flex items-center gap-2">
                       <Check className="h-5 w-5 text-[#215f5c]" />
-                      <span>1 Usuario</span>
+                      <span>Hasta 30 títulos</span>
                     </li>
                     <li className="flex items-center gap-2">
                       <Check className="h-5 w-5 text-[#215f5c]" />
-                      <span>Hasta 50 títulos</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <Check className="h-5 w-5 text-[#215f5c]" />
-                      <span>Facturación automática</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <Check className="h-5 w-5 text-[#215f5c]" />
-                      <span>Soporte por email</span>
+                      <span>Gestion de stock</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -344,7 +336,7 @@ export default function LandingPage() {
                   <div className="inline-block rounded-lg bg-[#215f5c] px-3 py-1 text-sm text-white mb-4">Popular</div>
                   <CardTitle className="text-2xl text-[#212529]">Profesional</CardTitle>
                   <div className="mt-4">
-                    <span className="text-4xl font-bold text-[#212529]">$49</span>
+                    <span className="text-4xl font-bold text-[#212529]">$27.000</span>
                     <span className="text-[#212529]/70">/mes</span>
                   </div>
                   <CardDescription className="mt-4">
@@ -359,23 +351,15 @@ export default function LandingPage() {
                     </li>
                     <li className="flex items-center gap-2">
                       <Check className="h-5 w-5 text-[#215f5c]" />
-                      <span>Hasta 5 Usuarios</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <Check className="h-5 w-5 text-[#215f5c]" />
                       <span>Hasta 200 títulos</span>
                     </li>
                     <li className="flex items-center gap-2">
                       <Check className="h-5 w-5 text-[#215f5c]" />
-                      <span>Análisis de ventas</span>
+                      <span>Reportes personalizados</span>
                     </li>                   
                     <li className="flex items-center gap-2">
                       <Check className="h-5 w-5 text-[#215f5c]" />
-                      <span>Distribución digital</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <Check className="h-5 w-5 text-[#215f5c]" />
-                      <span>Soporte prioritario</span>
+                      <span>Facturación automatica</span>
                     </li>
                   </ul>
                 </CardContent>
@@ -390,7 +374,7 @@ export default function LandingPage() {
                 <CardHeader>
                   <CardTitle className="text-2xl text-[#212529]">Empresarial</CardTitle>
                   <div className="mt-4">
-                    <span className="text-4xl font-bold text-[#212529]">$99</span>
+                    <span className="text-4xl font-bold text-[#212529]">$49.000</span>
                     <span className="text-[#212529]/70">/mes</span>
                   </div>
                   <CardDescription className="mt-4">
@@ -405,23 +389,11 @@ export default function LandingPage() {
                     </li>
                     <li className="flex items-center gap-2">
                       <Check className="h-5 w-5 text-[#215f5c]" />
-                      <span>Usuarios ilimitados</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <Check className="h-5 w-5 text-[#215f5c]" />
                       <span>Títulos ilimitados</span>
                     </li>
                     <li className="flex items-center gap-2">
                       <Check className="h-5 w-5 text-[#215f5c]" />
-                      <span>Acceso a las funcionalidades Beta</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <Check className="h-5 w-5 text-[#215f5c]" />
-                      <span>Integraciones avanzadas</span>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <Check className="h-5 w-5 text-[#215f5c]" />
-                      <span>Soporte 24/7</span>
+                      <span>Soporte prioritario</span>
                     </li>
                   </ul>
                 </CardContent>
