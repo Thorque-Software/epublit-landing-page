@@ -27,9 +27,11 @@ export default function LandingPage() {
             <Link href="#caracteristicas" className="text-sm font-medium text-white hover:text-[#215f5c]">
               Características
             </Link>
+            {/*
             <Link href="#testimonios" className="text-sm font-medium text-white hover:text-[#215f5c]">
               Testimonios
             </Link>
+            */}
             <Link href="#planes" className="text-sm font-medium text-white hover:text-[#215f5c]">
               Planes
             </Link>
@@ -130,7 +132,7 @@ export default function LandingPage() {
                 </p>
                 <div className="flex gap-3 pt-4">
                   <Button className="bg-[#215f5c] text-white hover:bg-[#215f5c]/90" size="lg">
-                    <Link href="#registrarse">Solicitar Demo</Link>
+                    <Link href="#registrarse">Probar </Link>
                   </Button>
                   <Button
                     variant="outline"
@@ -416,6 +418,7 @@ export default function LandingPage() {
                 Únete a cientos de editoriales que ya han optimizado sus procesos con Epublit.
               </p>
               <div className="w-full max-w-md">
+                {/*
                 <form 
                   className="flex flex-col sm:flex-row gap-2"
                   action="https://formspree.io/f/myzezglr"
@@ -427,12 +430,13 @@ export default function LandingPage() {
                     placeholder="Tu correo electrónico"
                     className="flex h-12 w-full rounded-md border border-white/20 bg-white/10 px-4 text-white placeholder:text-white/50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-white"
                   />
-                  <Button type="submit" className="h-12 bg-white text-[#215f5c] hover:bg-white/90 whitespace-nowrap">
-                    Registrarse
-                  </Button>
                 </form>
+                 */}
+                  <Button type="submit" className="h-12 bg-white text-[#215f5c] hover:bg-white/90 whitespace-nowrap">
+                    <Link href="https://app.epublit.com.ar/register"> Registrarse</Link>
+                  </Button>
                 <p className="text-sm text-white/70 mt-3">
-                  Prueba gratuita por 14 días. No se requiere tarjeta de crédito.
+                  Version gratuita. No se requiere tarjeta de crédito.
                 </p>
               </div>
             </div>
@@ -464,13 +468,13 @@ export default function LandingPage() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-sm text-white/70 hover:text-white">
+                  <Link href="#planes" className="text-sm text-white/70 hover:text-white">
                     Planes
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-sm text-white/70 hover:text-white">
-                    Guías
+                  <Link href="https://app.epublit.com.ar/register" className="text-sm text-white/70 hover:text-white">
+                    Registrarse
                   </Link>
                 </li>
               </ul>
@@ -479,18 +483,18 @@ export default function LandingPage() {
               <h3 className="font-semibold mb-4">Compañía</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="text-sm text-white/70 hover:text-white">
+                  <Link href="https://thorque.com.ar/#about" className="text-sm text-white/70 hover:text-white">
                     Acerca de
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-sm text-white/70 hover:text-white">
+                  <Link href="https://thorque.com.ar/#services" className="text-sm text-white/70 hover:text-white">
                     Blog
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-sm text-white/70 hover:text-white">
-                    Empleos
+                  <Link href="https://thorque.com.ar/#clients" className="text-sm text-white/70 hover:text-white">
+                   Clientes 
                   </Link>
                 </li>
               </ul>
